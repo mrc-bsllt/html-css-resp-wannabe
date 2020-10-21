@@ -84,33 +84,41 @@ img {
 /* css media generale */
 h1 {
   font-size: 44px;
+  margin-bottom: 20px;
 }
 h3 {
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 10px;
 }
 .row {
   width: 100%;
   margin-top: 0;
   padding: 10px;
 }
-img {
-  margin: 30px 0 0 0;
-}
 /* /css media generale */
 
 /* css media lezioni */
 #lezioni {
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 20px;
 }
 #lezioni .row > .left,
 #lezioni .row > .right {
   width: 100%;
   float: none;
-  text-align: center;
+  text-align: left;
+}
+#lezioni .row img {
+  height: 100px;
+  margin: 30px 0 0 0;
 }
 /* /css media lezioni */
 
 /* css media steps */
+#steps {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 20px;
+}
 #steps .row > .left,
 #steps .row > .central,
 #steps .row > .right {
