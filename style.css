@@ -75,68 +75,68 @@ img {
 /* media per schermi < 420px */
 @media screen and (max-width: 420px) {
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-/* css media generale */
-h1 {
-  font-size: 44px;
-  margin-bottom: 20px;
-}
-h3 {
-  font-size: 25px;
-  margin-top: 10px;
-}
-.row {
-  width: 100%;
-  margin-top: 0;
-  padding: 10px;
-}
-/* /css media generale */
+  /* css media generale */
+  h1 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .row {
+    width: 100%;
+    padding: 10px;
+  }
+  /* /css media generale */
 
-/* css media lezioni */
-#lezioni {
-  border-bottom: 2px solid #000000;
-  padding-bottom: 20px;
-}
-#lezioni .row > .left,
-#lezioni .row > .right {
-  width: 100%;
-  float: none;
-  text-align: left;
-}
-#lezioni .row img {
-  height: 100px;
-  margin: 30px 0 0 0;
-}
-/* /css media lezioni */
+  /* css media lezioni */
+  #lezioni {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 20px;
+  }
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+  #lezioni .row img {
+    height: 100px;
+  }
+  /* /css media lezioni */
 
-/* css media steps */
-#steps {
-  border-bottom: 2px solid #000000;
-  padding-bottom: 20px;
-}
-#steps .row > .left,
-#steps .row > .central,
-#steps .row > .right {
-  width: 100%;
-  float: none;
-  text-align: center;
-}
-/* /css media steps */
+  /* css media steps */
+  #steps {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 20px;
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  #steps img {
+    height: 100px;
+  }
+  /* /css media steps */
 
-/* css media why */
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  float: none;
-  text-align: center;
-}
-/* /css media why */
+  /* css media why */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  /* /css media why */
 
 }
 /* /media per schermi < 420px */
