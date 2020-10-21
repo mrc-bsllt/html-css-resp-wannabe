@@ -151,3 +151,13 @@ img {
 
 }
 /* /media per schermi < 420px */
+
+/* css media per schermi >768<1024 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+body {
+  background-color: #29282f;
+}
+
+}
+/* /css media per schermi >768<1024 */
