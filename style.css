@@ -92,6 +92,7 @@ img {
   .row {
     width: 100%;
     padding: 10px;
+    margin: 0;
   }
   /* /css media generale */
 
@@ -102,12 +103,14 @@ img {
   }
   #lezioni .row > .left,
   #lezioni .row > .right {
-    width: 100%;
     float: none;
+    width: 100%;
+    margin: 25px 0;
     text-align: left;
   }
   #lezioni .row img {
     height: 100px;
+    margin-left: 0
   }
   /* /css media lezioni */
 
@@ -119,8 +122,9 @@ img {
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
-    width: 100%;
     float: none;
+    width: 80%;
+    margin: 25px auto;
     text-align: center;
   }
   #steps img {
@@ -132,9 +136,16 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: 100%;
     float: none;
+    width: 80%;
+    margin: 25px auto;
     text-align: center;
+  }
+  #why .row img {
+    height: 100px;
+  }
+  #why .row hr {
+    margin-top: 15px;
   }
   /* /css media why */
 
